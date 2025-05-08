@@ -1,7 +1,7 @@
 export * from './Three.Core.js';
 
 export * from './materials/nodes/NodeMaterials.js';
-export { default as WebGPURenderer } from './renderers/webgpu/WebGPURenderer.js';
+export { default as WebGPURenderer } from './renderers/webgpu/WebGPURenderer.Nodes.js';
 export { default as Lighting } from './renderers/common/Lighting.js';
 export { default as BundleGroup } from './renderers/common/BundleGroup.js';
 export { default as QuadMesh } from './renderers/common/QuadMesh.js';
@@ -18,7 +18,10 @@ export { default as ProjectorLight } from './lights/webgpu/ProjectorLight.js';
 export { default as NodeLoader } from './loaders/nodes/NodeLoader.js';
 export { default as NodeObjectLoader } from './loaders/nodes/NodeObjectLoader.js';
 export { default as NodeMaterialLoader } from './loaders/nodes/NodeMaterialLoader.js';
+export { default as GeometryNodeLoader } from './loaders/geometrynodes/GeometryNodeLoader.js';
+export { default as GeometryNodeObjectLoader } from './loaders/geometrynodes/GeometryNodeObjectLoader.js';
 export { ClippingGroup } from './objects/ClippingGroup.js';
 export * from './nodes/Nodes.js';
+export * from './geometrynodes/GeometryNodes.js';
 import * as TSL from './nodes/TSL.js';
 export { TSL };
